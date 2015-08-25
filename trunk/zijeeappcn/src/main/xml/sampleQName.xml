@@ -1,0 +1,3 @@
+<heavyz:Sample xmlns:heavyz="http://www.heavyzheng.com/schema/sample.xsd">
+    <heavyz:HelloWorld/>
+</heavyz:Sample>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="uml">
+  <packagedElement xmi:type="uml:Package" xmi:id="_D-lqIbs9EeG-94CZr0_i-g" name="headfirst">
+    <packagedElement xmi:type="uml:Package" xmi:id="_D-vbILs9EeG-94CZr0_i-g" name="adapter">
+      <packagedElement xmi:type="uml:Package" xmi:id="_D-vbIbs9EeG-94CZr0_i-g" name="ducks">
+        <packagedElement xmi:type="uml:Association" xmi:id="_ECKinLs9EeG-94CZr0_i-g" memberEnd="_ECBYobs9EeG-94CZr0_i-g _ECKinbs9EeG-94CZr0_i-g">
+          <ownedEnd xmi:id="_ECKinbs9EeG-94CZr0_i-g" name="DuckAdapter" type="_D_fCALs9EeG-94CZr0_i-g" association="_ECKinLs9EeG-94CZr0_i-g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ECKinrs9EeG-94CZr0_i-g" memberEnd="_ECKilbs9EeG-94CZr0_i-g _ECKin7s9EeG-94CZr0_i-g">
+          <ownedEnd xmi:id="_ECKin7s9EeG-94CZr0_i-g" name="TurkeyAdapter" type="_D_fCArs9EeG-94CZr0_i-g" association="_ECKinrs9EeG-94CZr0_i-g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D-5MILs9EeG-94CZr0_i-g" name="WildTurkey" clientDependency="_D_7t8Ls9EeG-94CZr0_i-g">
+          <interfaceRealization xmi:id="_D_7t8Ls9EeG-94CZr0_i-g" name="Turkey" supplier="_D_x88Ls9EeG-94CZr0_i-g" client="_D-5MILs9EeG-94CZr0_i-g" contract="_D_x88Ls9EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_EAFe8Ls9EeG-94CZr0_i-g" name="gobble" visibility="public"/>
+          <ownedOperation xmi:id="_EAFe8bs9EeG-94CZr0_i-g" name="fly" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D_MHELs9EeG-94CZr0_i-g" name="MallardDuck" clientDependency="_EAFe8rs9EeG-94CZr0_i-g">
+          <interfaceRealization xmi:id="_EAFe8rs9EeG-94CZr0_i-g" name="Duck" supplier="_D_ozALs9EeG-94CZr0_i-g" client="_D_MHELs9EeG-94CZr0_i-g" contract="_D_ozALs9EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_EAFe87s9EeG-94CZr0_i-g" name="quack" visibility="public"/>
+          <ownedOperation xmi:id="_EAFe9Ls9EeG-94CZr0_i-g" name="fly" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D_VRALs9EeG-94CZr0_i-g" name="TurkeyTestDrive">
+          <ownedOperation xmi:id="_EB3nobs9EeG-94CZr0_i-g" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_EB3nors9EeG-94CZr0_i-g" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D_fCALs9EeG-94CZr0_i-g" name="DuckAdapter" clientDependency="_ECBYoLs9EeG-94CZr0_i-g">
+          <ownedAttribute xmi:id="_ECBYobs9EeG-94CZr0_i-g" name="duck" visibility="package" type="_D_ozALs9EeG-94CZr0_i-g" association="_ECKinLs9EeG-94CZr0_i-g"/>
+          <ownedAttribute xmi:id="_ECBYo7s9EeG-94CZr0_i-g" name="rand" visibility="package" type="_ECBYors9EeG-94CZr0_i-g"/>
+          <interfaceRealization xmi:id="_ECBYoLs9EeG-94CZr0_i-g" name="Turkey" supplier="_D_x88Ls9EeG-94CZr0_i-g" client="_D_fCALs9EeG-94CZr0_i-g" contract="_D_x88Ls9EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_ECBYpLs9EeG-94CZr0_i-g" name="gobble" visibility="public"/>
+          <ownedOperation xmi:id="_ECBYpbs9EeG-94CZr0_i-g" name="fly" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D_fCAbs9EeG-94CZr0_i-g" name="DuckTestDrive">
+          <ownedOperation xmi:id="_ECKikLs9EeG-94CZr0_i-g" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_ECKikbs9EeG-94CZr0_i-g" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ECKikrs9EeG-94CZr0_i-g" name="testDuck" visibility="package" isStatic="true">
+            <ownedParameter xmi:id="_ECKik7s9EeG-94CZr0_i-g" name="duck" type="_D_ozALs9EeG-94CZr0_i-g"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D_fCArs9EeG-94CZr0_i-g" name="TurkeyAdapter" clientDependency="_ECKilLs9EeG-94CZr0_i-g">
+          <ownedAttribute xmi:id="_ECKilbs9EeG-94CZr0_i-g" name="turkey" visibility="package" type="_D_x88Ls9EeG-94CZr0_i-g" association="_ECKinrs9EeG-94CZr0_i-g"/>
+          <interfaceRealization xmi:id="_ECKilLs9EeG-94CZr0_i-g" name="Duck" supplier="_D_ozALs9EeG-94CZr0_i-g" client="_D_fCArs9EeG-94CZr0_i-g" contract="_D_ozALs9EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_ECKilrs9EeG-94CZr0_i-g" name="quack" visibility="public"/>
+          <ownedOperation xmi:id="_ECKil7s9EeG-94CZr0_i-g" name="fly" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_D_ozALs9EeG-94CZr0_i-g" name="Duck">
+          <ownedOperation xmi:id="_ECKimLs9EeG-94CZr0_i-g" name="quack" visibility="public"/>
+          <ownedOperation xmi:id="_ECKimbs9EeG-94CZr0_i-g" name="fly" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_D_x88Ls9EeG-94CZr0_i-g" name="Turkey">
+          <ownedOperation xmi:id="_ECKimrs9EeG-94CZr0_i-g" name="gobble" visibility="public"/>
+          <ownedOperation xmi:id="_ECKim7s9EeG-94CZr0_i-g" name="fly" visibility="public"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_ECBYors9EeG-94CZr0_i-g" name="Random"/>
+</uml:Model>

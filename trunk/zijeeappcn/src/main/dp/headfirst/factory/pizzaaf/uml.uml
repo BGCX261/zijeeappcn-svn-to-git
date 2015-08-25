@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="uml">
+  <packagedElement xmi:type="uml:Package" xmi:id="_qENvocAaEeG-JaMUHa-ySw" name="headfirst">
+    <packagedElement xmi:type="uml:Package" xmi:id="_qENvosAaEeG-JaMUHa-ySw" name="factory">
+      <packagedElement xmi:type="uml:Package" xmi:id="_qENvo8AaEeG-JaMUHa-ySw" name="pizzaaf">
+        <packagedElement xmi:type="uml:Association" xmi:id="_qHCaIcAaEeG-JaMUHa-ySw" memberEnd="_qGSzWcAaEeG-JaMUHa-ySw _qHCaIsAaEeG-JaMUHa-ySw">
+          <ownedEnd xmi:id="_qHCaIsAaEeG-JaMUHa-ySw" name="PepperoniPizza" type="_qFGgc8AaEeG-JaMUHa-ySw" association="_qHCaIcAaEeG-JaMUHa-ySw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qHCaI8AaEeG-JaMUHa-ySw" memberEnd="_qGSzYcAaEeG-JaMUHa-ySw _qHCaJMAaEeG-JaMUHa-ySw">
+          <ownedEnd xmi:id="_qHCaJMAaEeG-JaMUHa-ySw" name="CheesePizza" type="_qFGgdsAaEeG-JaMUHa-ySw" association="_qHCaI8AaEeG-JaMUHa-ySw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qHCaJcAaEeG-JaMUHa-ySw" memberEnd="_qGmVY8AaEeG-JaMUHa-ySw _qHCaJsAaEeG-JaMUHa-ySw">
+          <ownedEnd xmi:id="_qHCaJsAaEeG-JaMUHa-ySw" name="ClamPizza" type="_qFaCeMAaEeG-JaMUHa-ySw" association="_qHCaJcAaEeG-JaMUHa-ySw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qHCaJ8AaEeG-JaMUHa-ySw" memberEnd="_qGvfMMAaEeG-JaMUHa-ySw _qHCaKMAaEeG-JaMUHa-ySw">
+          <ownedEnd xmi:id="_qHCaKMAaEeG-JaMUHa-ySw" name="Pizza" type="_qFjMYMAaEeG-JaMUHa-ySw" association="_qHCaJ8AaEeG-JaMUHa-ySw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qHCaKcAaEeG-JaMUHa-ySw" memberEnd="_qGvfMcAaEeG-JaMUHa-ySw _qHCaKsAaEeG-JaMUHa-ySw">
+          <ownedEnd xmi:id="_qHCaKsAaEeG-JaMUHa-ySw" name="Pizza" type="_qFjMYMAaEeG-JaMUHa-ySw" association="_qHCaKcAaEeG-JaMUHa-ySw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qHCaK8AaEeG-JaMUHa-ySw" memberEnd="_qGvfMsAaEeG-JaMUHa-ySw _qHCaLMAaEeG-JaMUHa-ySw">
+          <ownedEnd xmi:id="_qHCaLMAaEeG-JaMUHa-ySw" name="Pizza" type="_qFjMYMAaEeG-JaMUHa-ySw" association="_qHCaK8AaEeG-JaMUHa-ySw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qHCaLcAaEeG-JaMUHa-ySw" memberEnd="_qGvfNcAaEeG-JaMUHa-ySw _qHCaLsAaEeG-JaMUHa-ySw">
+          <ownedEnd xmi:id="_qHCaLsAaEeG-JaMUHa-ySw" name="Pizza" type="_qFjMYMAaEeG-JaMUHa-ySw" association="_qHCaLcAaEeG-JaMUHa-ySw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qHCaL8AaEeG-JaMUHa-ySw" memberEnd="_qGvfNsAaEeG-JaMUHa-ySw _qHCaMMAaEeG-JaMUHa-ySw">
+          <ownedEnd xmi:id="_qHCaMMAaEeG-JaMUHa-ySw" name="Pizza" type="_qFjMYMAaEeG-JaMUHa-ySw" association="_qHCaL8AaEeG-JaMUHa-ySw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qHCaMcAaEeG-JaMUHa-ySw" memberEnd="_qGvfN8AaEeG-JaMUHa-ySw _qHCaMsAaEeG-JaMUHa-ySw">
+          <ownedEnd xmi:id="_qHCaMsAaEeG-JaMUHa-ySw" name="Pizza" type="_qFjMYMAaEeG-JaMUHa-ySw" association="_qHCaMcAaEeG-JaMUHa-ySw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qHCaM8AaEeG-JaMUHa-ySw" memberEnd="_qG5QR8AaEeG-JaMUHa-ySw _qHCaNMAaEeG-JaMUHa-ySw">
+          <ownedEnd xmi:id="_qHCaNMAaEeG-JaMUHa-ySw" name="VeggiePizza" type="_qFs9YMAaEeG-JaMUHa-ySw" association="_qHCaM8AaEeG-JaMUHa-ySw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qEW5kMAaEeG-JaMUHa-ySw" name="BlackOlives" clientDependency="_qFs9YcAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qFs9YcAaEeG-JaMUHa-ySw" name="Veggies" supplier="_qFQRcMAaEeG-JaMUHa-ySw" client="_qEW5kMAaEeG-JaMUHa-ySw" contract="_qFQRcMAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGJplcAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGJplsAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qEzlgMAaEeG-JaMUHa-ySw" name="NYPizzaStore">
+          <generalization xmi:id="_qGJpl8AaEeG-JaMUHa-ySw" general="_qFaCc8AaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGJpmMAaEeG-JaMUHa-ySw" name="createPizza" visibility="protected">
+            <ownedParameter xmi:id="_qGJpmcAaEeG-JaMUHa-ySw" name="item">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_qGJpmsAaEeG-JaMUHa-ySw" name="return" type="_qFjMYMAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qEzlgcAaEeG-JaMUHa-ySw" name="ThickCrustDough" clientDependency="_qGJpm8AaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGJpm8AaEeG-JaMUHa-ySw" name="Dough" supplier="_qFaCdsAaEeG-JaMUHa-ySw" client="_qEzlgcAaEeG-JaMUHa-ySw" contract="_qFaCdsAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGJpnMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGJpncAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qE9WgMAaEeG-JaMUHa-ySw" name="ChicagoPizzaStore">
+          <generalization xmi:id="_qGJpnsAaEeG-JaMUHa-ySw" general="_qFaCc8AaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGJpn8AaEeG-JaMUHa-ySw" name="createPizza" visibility="protected">
+            <ownedParameter xmi:id="_qGJpoMAaEeG-JaMUHa-ySw" name="item">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_qGJpocAaEeG-JaMUHa-ySw" name="return" type="_qFjMYMAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qE9WgcAaEeG-JaMUHa-ySw" name="MarinaraSauce" clientDependency="_qGJposAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGJposAaEeG-JaMUHa-ySw" name="Sauce" supplier="_qFGgccAaEeG-JaMUHa-ySw" client="_qE9WgcAaEeG-JaMUHa-ySw" contract="_qFGgccAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGJpo8AaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGJppMAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qE9WgsAaEeG-JaMUHa-ySw" name="Garlic" clientDependency="_qGSzQMAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGSzQMAaEeG-JaMUHa-ySw" name="Veggies" supplier="_qFQRcMAaEeG-JaMUHa-ySw" client="_qE9WgsAaEeG-JaMUHa-ySw" contract="_qFQRcMAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGSzQcAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGSzQsAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qE9Wg8AaEeG-JaMUHa-ySw" name="FrozenClams" clientDependency="_qGSzQ8AaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGSzQ8AaEeG-JaMUHa-ySw" name="Clams" supplier="_qFGgdcAaEeG-JaMUHa-ySw" client="_qE9Wg8AaEeG-JaMUHa-ySw" contract="_qFGgdcAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGSzRMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGSzRcAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFGgcMAaEeG-JaMUHa-ySw" name="NYPizzaIngredientFactory" clientDependency="_qGSzRsAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGSzRsAaEeG-JaMUHa-ySw" name="PizzaIngredientFactory" supplier="_qFjMYcAaEeG-JaMUHa-ySw" client="_qFGgcMAaEeG-JaMUHa-ySw" contract="_qFjMYcAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGSzR8AaEeG-JaMUHa-ySw" name="createDough" visibility="public">
+            <ownedParameter xmi:id="_qGSzSMAaEeG-JaMUHa-ySw" name="return" type="_qFaCdsAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGSzScAaEeG-JaMUHa-ySw" name="createSauce" visibility="public">
+            <ownedParameter xmi:id="_qGSzSsAaEeG-JaMUHa-ySw" name="return" type="_qFGgccAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGSzS8AaEeG-JaMUHa-ySw" name="createCheese" visibility="public">
+            <ownedParameter xmi:id="_qGSzTMAaEeG-JaMUHa-ySw" name="return" type="_qFQRccAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGSzTcAaEeG-JaMUHa-ySw" name="createVeggies" visibility="public">
+            <ownedParameter xmi:id="_qGSzTsAaEeG-JaMUHa-ySw" name="return" type="_qFQRcMAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGSzT8AaEeG-JaMUHa-ySw" name="createPepperoni" visibility="public">
+            <ownedParameter xmi:id="_qGSzUMAaEeG-JaMUHa-ySw" name="return" type="_qFQRcsAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGSzUcAaEeG-JaMUHa-ySw" name="createClam" visibility="public">
+            <ownedParameter xmi:id="_qGSzUsAaEeG-JaMUHa-ySw" name="return" type="_qFGgdcAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_qFGgccAaEeG-JaMUHa-ySw" name="Sauce">
+          <ownedOperation xmi:id="_qGSzU8AaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGSzVMAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFGgcsAaEeG-JaMUHa-ySw" name="Onion" clientDependency="_qGSzVcAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGSzVcAaEeG-JaMUHa-ySw" name="Veggies" supplier="_qFQRcMAaEeG-JaMUHa-ySw" client="_qFGgcsAaEeG-JaMUHa-ySw" contract="_qFQRcMAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGSzVsAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGSzV8AaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFGgc8AaEeG-JaMUHa-ySw" name="PepperoniPizza">
+          <generalization xmi:id="_qGSzWMAaEeG-JaMUHa-ySw" general="_qFjMYMAaEeG-JaMUHa-ySw"/>
+          <ownedAttribute xmi:id="_qGSzWcAaEeG-JaMUHa-ySw" name="ingredientFactory" visibility="package" type="_qFjMYcAaEeG-JaMUHa-ySw" association="_qHCaIcAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGSzWsAaEeG-JaMUHa-ySw" name="prepare" visibility="package"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFGgdMAaEeG-JaMUHa-ySw" name="Mushroom" clientDependency="_qGSzW8AaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGSzW8AaEeG-JaMUHa-ySw" name="Veggies" supplier="_qFQRcMAaEeG-JaMUHa-ySw" client="_qFGgdMAaEeG-JaMUHa-ySw" contract="_qFQRcMAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGSzXMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGSzXcAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_qFGgdcAaEeG-JaMUHa-ySw" name="Clams">
+          <ownedOperation xmi:id="_qGSzXsAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGSzX8AaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFGgdsAaEeG-JaMUHa-ySw" name="CheesePizza">
+          <generalization xmi:id="_qGSzYMAaEeG-JaMUHa-ySw" general="_qFjMYMAaEeG-JaMUHa-ySw"/>
+          <ownedAttribute xmi:id="_qGSzYcAaEeG-JaMUHa-ySw" name="ingredientFactory" visibility="package" type="_qFjMYcAaEeG-JaMUHa-ySw" association="_qHCaI8AaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGckQMAaEeG-JaMUHa-ySw" name="prepare" visibility="package"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFGgd8AaEeG-JaMUHa-ySw" name="FreshClams" clientDependency="_qGckQcAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGckQcAaEeG-JaMUHa-ySw" name="Clams" supplier="_qFGgdcAaEeG-JaMUHa-ySw" client="_qFGgd8AaEeG-JaMUHa-ySw" contract="_qFGgdcAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGckQsAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGckQ8AaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_qFQRcMAaEeG-JaMUHa-ySw" name="Veggies">
+          <ownedOperation xmi:id="_qGckRMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGckRcAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_qFQRccAaEeG-JaMUHa-ySw" name="Cheese">
+          <ownedOperation xmi:id="_qGckRsAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGckR8AaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_qFQRcsAaEeG-JaMUHa-ySw" name="Pepperoni">
+          <ownedOperation xmi:id="_qGckSMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGckScAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFQRc8AaEeG-JaMUHa-ySw" name="ChicagoPizzaIngredientFactory" clientDependency="_qGckSsAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGckSsAaEeG-JaMUHa-ySw" name="PizzaIngredientFactory" supplier="_qFjMYcAaEeG-JaMUHa-ySw" client="_qFQRc8AaEeG-JaMUHa-ySw" contract="_qFjMYcAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGckS8AaEeG-JaMUHa-ySw" name="createDough" visibility="public">
+            <ownedParameter xmi:id="_qGckTMAaEeG-JaMUHa-ySw" name="return" type="_qFaCdsAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGckTcAaEeG-JaMUHa-ySw" name="createSauce" visibility="public">
+            <ownedParameter xmi:id="_qGckTsAaEeG-JaMUHa-ySw" name="return" type="_qFGgccAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGckT8AaEeG-JaMUHa-ySw" name="createCheese" visibility="public">
+            <ownedParameter xmi:id="_qGckUMAaEeG-JaMUHa-ySw" name="return" type="_qFQRccAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGckUcAaEeG-JaMUHa-ySw" name="createVeggies" visibility="public">
+            <ownedParameter xmi:id="_qGckUsAaEeG-JaMUHa-ySw" name="return" type="_qFQRcMAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGckU8AaEeG-JaMUHa-ySw" name="createPepperoni" visibility="public">
+            <ownedParameter xmi:id="_qGckVMAaEeG-JaMUHa-ySw" name="return" type="_qFQRcsAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGckVcAaEeG-JaMUHa-ySw" name="createClam" visibility="public">
+            <ownedParameter xmi:id="_qGckVsAaEeG-JaMUHa-ySw" name="return" type="_qFGgdcAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFQRdMAaEeG-JaMUHa-ySw" name="ReggianoCheese" clientDependency="_qGckV8AaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGckV8AaEeG-JaMUHa-ySw" name="Cheese" supplier="_qFQRccAaEeG-JaMUHa-ySw" client="_qFQRdMAaEeG-JaMUHa-ySw" contract="_qFQRccAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGckWMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGckWcAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFQRdcAaEeG-JaMUHa-ySw" name="PlumTomatoSauce" clientDependency="_qGmVQMAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGmVQMAaEeG-JaMUHa-ySw" name="Sauce" supplier="_qFGgccAaEeG-JaMUHa-ySw" client="_qFQRdcAaEeG-JaMUHa-ySw" contract="_qFGgccAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGmVQcAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGmVQsAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFQRdsAaEeG-JaMUHa-ySw" name="Eggplant" clientDependency="_qGmVQ8AaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGmVQ8AaEeG-JaMUHa-ySw" name="Veggies" supplier="_qFQRcMAaEeG-JaMUHa-ySw" client="_qFQRdsAaEeG-JaMUHa-ySw" contract="_qFQRcMAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGmVRMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGmVRcAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFQRd8AaEeG-JaMUHa-ySw" name="ThinCrustDough" clientDependency="_qGmVRsAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGmVRsAaEeG-JaMUHa-ySw" name="Dough" supplier="_qFaCdsAaEeG-JaMUHa-ySw" client="_qFQRd8AaEeG-JaMUHa-ySw" contract="_qFaCdsAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGmVR8AaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGmVSMAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFaCcMAaEeG-JaMUHa-ySw" name="PizzaTestDrive">
+          <ownedOperation xmi:id="_qGmVScAaEeG-JaMUHa-ySw" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_qGmVSsAaEeG-JaMUHa-ySw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFaCccAaEeG-JaMUHa-ySw" name="RedPepper" clientDependency="_qGmVS8AaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGmVS8AaEeG-JaMUHa-ySw" name="Veggies" supplier="_qFQRcMAaEeG-JaMUHa-ySw" client="_qFaCccAaEeG-JaMUHa-ySw" contract="_qFQRcMAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGmVTMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGmVTcAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFaCcsAaEeG-JaMUHa-ySw" name="SlicedPepperoni" clientDependency="_qGmVTsAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGmVTsAaEeG-JaMUHa-ySw" name="Pepperoni" supplier="_qFQRcsAaEeG-JaMUHa-ySw" client="_qFaCcsAaEeG-JaMUHa-ySw" contract="_qFQRcsAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGmVT8AaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGmVUMAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFaCc8AaEeG-JaMUHa-ySw" name="PizzaStore" isAbstract="true">
+          <ownedOperation xmi:id="_qGmVUcAaEeG-JaMUHa-ySw" name="createPizza" visibility="protected" isAbstract="true">
+            <ownedParameter xmi:id="_qGmVUsAaEeG-JaMUHa-ySw" name="item">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_qGmVU8AaEeG-JaMUHa-ySw" name="return" type="_qFjMYMAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qGmVVMAaEeG-JaMUHa-ySw" name="orderPizza" visibility="public">
+            <ownedParameter xmi:id="_qGmVVcAaEeG-JaMUHa-ySw" name="type">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_qGmVVsAaEeG-JaMUHa-ySw" name="return" type="_qFjMYMAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFaCdMAaEeG-JaMUHa-ySw" name="ParmesanCheese" clientDependency="_qGmVV8AaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGmVV8AaEeG-JaMUHa-ySw" name="Cheese" supplier="_qFQRccAaEeG-JaMUHa-ySw" client="_qFaCdMAaEeG-JaMUHa-ySw" contract="_qFQRccAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGmVWMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGmVWcAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFaCdcAaEeG-JaMUHa-ySw" name="MozzarellaCheese" clientDependency="_qGmVWsAaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGmVWsAaEeG-JaMUHa-ySw" name="Cheese" supplier="_qFQRccAaEeG-JaMUHa-ySw" client="_qFaCdcAaEeG-JaMUHa-ySw" contract="_qFQRccAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGmVW8AaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGmVXMAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_qFaCdsAaEeG-JaMUHa-ySw" name="Dough">
+          <ownedOperation xmi:id="_qGmVXcAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGmVXsAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFaCd8AaEeG-JaMUHa-ySw" name="Spinach" clientDependency="_qGmVX8AaEeG-JaMUHa-ySw">
+          <interfaceRealization xmi:id="_qGmVX8AaEeG-JaMUHa-ySw" name="Veggies" supplier="_qFQRcMAaEeG-JaMUHa-ySw" client="_qFaCd8AaEeG-JaMUHa-ySw" contract="_qFQRcMAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGmVYMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qGmVYcAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFaCeMAaEeG-JaMUHa-ySw" name="ClamPizza">
+          <generalization xmi:id="_qGmVYsAaEeG-JaMUHa-ySw" general="_qFjMYMAaEeG-JaMUHa-ySw"/>
+          <ownedAttribute xmi:id="_qGmVY8AaEeG-JaMUHa-ySw" name="ingredientFactory" visibility="package" type="_qFjMYcAaEeG-JaMUHa-ySw" association="_qHCaJcAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qGmVZMAaEeG-JaMUHa-ySw" name="prepare" visibility="package"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFjMYMAaEeG-JaMUHa-ySw" name="Pizza" isAbstract="true">
+          <ownedAttribute xmi:id="_qGmVZcAaEeG-JaMUHa-ySw" name="name" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qGvfMMAaEeG-JaMUHa-ySw" name="dough" visibility="package" type="_qFaCdsAaEeG-JaMUHa-ySw" association="_qHCaJ8AaEeG-JaMUHa-ySw"/>
+          <ownedAttribute xmi:id="_qGvfMcAaEeG-JaMUHa-ySw" name="sauce" visibility="package" type="_qFGgccAaEeG-JaMUHa-ySw" association="_qHCaKcAaEeG-JaMUHa-ySw"/>
+          <ownedAttribute xmi:id="_qGvfMsAaEeG-JaMUHa-ySw" name="veggies" visibility="package" type="_qFQRcMAaEeG-JaMUHa-ySw" association="_qHCaK8AaEeG-JaMUHa-ySw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qGvfM8AaEeG-JaMUHa-ySw" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qGvfNMAaEeG-JaMUHa-ySw"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qGvfNcAaEeG-JaMUHa-ySw" name="cheese" visibility="package" type="_qFQRccAaEeG-JaMUHa-ySw" association="_qHCaLcAaEeG-JaMUHa-ySw"/>
+          <ownedAttribute xmi:id="_qGvfNsAaEeG-JaMUHa-ySw" name="pepperoni" visibility="package" type="_qFQRcsAaEeG-JaMUHa-ySw" association="_qHCaL8AaEeG-JaMUHa-ySw"/>
+          <ownedAttribute xmi:id="_qGvfN8AaEeG-JaMUHa-ySw" name="clam" visibility="package" type="_qFGgdcAaEeG-JaMUHa-ySw" association="_qHCaMcAaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qG5QMMAaEeG-JaMUHa-ySw" name="prepare" visibility="package" isAbstract="true"/>
+          <ownedOperation xmi:id="_qG5QMcAaEeG-JaMUHa-ySw" name="bake" visibility="package"/>
+          <ownedOperation xmi:id="_qG5QMsAaEeG-JaMUHa-ySw" name="cut" visibility="package"/>
+          <ownedOperation xmi:id="_qG5QM8AaEeG-JaMUHa-ySw" name="box" visibility="package"/>
+          <ownedOperation xmi:id="_qG5QNMAaEeG-JaMUHa-ySw" name="setName" visibility="package">
+            <ownedParameter xmi:id="_qG5QNcAaEeG-JaMUHa-ySw" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qG5QNsAaEeG-JaMUHa-ySw" name="getName" visibility="package">
+            <ownedParameter xmi:id="_qG5QN8AaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qG5QOMAaEeG-JaMUHa-ySw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_qG5QOcAaEeG-JaMUHa-ySw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_qFjMYcAaEeG-JaMUHa-ySw" name="PizzaIngredientFactory">
+          <ownedOperation xmi:id="_qG5QOsAaEeG-JaMUHa-ySw" name="createDough" visibility="public">
+            <ownedParameter xmi:id="_qG5QO8AaEeG-JaMUHa-ySw" name="return" type="_qFaCdsAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qG5QPMAaEeG-JaMUHa-ySw" name="createSauce" visibility="public">
+            <ownedParameter xmi:id="_qG5QPcAaEeG-JaMUHa-ySw" name="return" type="_qFGgccAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qG5QPsAaEeG-JaMUHa-ySw" name="createCheese" visibility="public">
+            <ownedParameter xmi:id="_qG5QP8AaEeG-JaMUHa-ySw" name="return" type="_qFQRccAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qG5QQMAaEeG-JaMUHa-ySw" name="createVeggies" visibility="public">
+            <ownedParameter xmi:id="_qG5QQcAaEeG-JaMUHa-ySw" name="return" type="_qFQRcMAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qG5QQsAaEeG-JaMUHa-ySw" name="createPepperoni" visibility="public">
+            <ownedParameter xmi:id="_qG5QQ8AaEeG-JaMUHa-ySw" name="return" type="_qFQRcsAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qG5QRMAaEeG-JaMUHa-ySw" name="createClam" visibility="public">
+            <ownedParameter xmi:id="_qG5QRcAaEeG-JaMUHa-ySw" name="return" type="_qFGgdcAaEeG-JaMUHa-ySw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qFs9YMAaEeG-JaMUHa-ySw" name="VeggiePizza">
+          <generalization xmi:id="_qG5QRsAaEeG-JaMUHa-ySw" general="_qFjMYMAaEeG-JaMUHa-ySw"/>
+          <ownedAttribute xmi:id="_qG5QR8AaEeG-JaMUHa-ySw" name="ingredientFactory" visibility="package" type="_qFjMYcAaEeG-JaMUHa-ySw" association="_qHCaM8AaEeG-JaMUHa-ySw"/>
+          <ownedOperation xmi:id="_qHCaIMAaEeG-JaMUHa-ySw" name="prepare" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="uml">
+  <packagedElement xmi:type="uml:Package" xmi:id="_FqvsAcG2EeGArbZzfNIu0g" name="headfirst">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Fq5dAMG2EeGArbZzfNIu0g" name="iterator">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Fq5dAcG2EeGArbZzfNIu0g" name="dinermerger">
+        <packagedElement xmi:type="uml:Association" xmi:id="_Fxcw9sG2EeGArbZzfNIu0g" memberEnd="_FuLagMG2EeGArbZzfNIu0g _Fxcw98G2EeGArbZzfNIu0g">
+          <ownedEnd xmi:id="_Fxcw98G2EeGArbZzfNIu0g" name="Waitress" type="_FsibwMG2EeGArbZzfNIu0g" association="_Fxcw9sG2EeGArbZzfNIu0g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Fxcw-MG2EeGArbZzfNIu0g" memberEnd="_FuLagcG2EeGArbZzfNIu0g _Fxcw-cG2EeGArbZzfNIu0g">
+          <ownedEnd xmi:id="_Fxcw-cG2EeGArbZzfNIu0g" name="Waitress" type="_FsibwMG2EeGArbZzfNIu0g" association="_Fxcw-MG2EeGArbZzfNIu0g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Fxcw-sG2EeGArbZzfNIu0g" memberEnd="_Fw27FMG2EeGArbZzfNIu0g _Fxcw-8G2EeGArbZzfNIu0g">
+          <ownedEnd xmi:id="_Fxcw-8G2EeGArbZzfNIu0g" name="DinerMenu" type="_Fs1WsMG2EeGArbZzfNIu0g" association="_Fxcw-sG2EeGArbZzfNIu0g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Fxcw_MG2EeGArbZzfNIu0g" memberEnd="_Fw27IcG2EeGArbZzfNIu0g _Fxcw_cG2EeGArbZzfNIu0g">
+          <ownedEnd xmi:id="_Fxcw_cG2EeGArbZzfNIu0g" name="AlternatingDinerMenuIterator" type="_Fs_HsMG2EeGArbZzfNIu0g" association="_Fxcw_MG2EeGArbZzfNIu0g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Fxcw_sG2EeGArbZzfNIu0g" memberEnd="_FxJ2A8G2EeGArbZzfNIu0g _Fxcw_8G2EeGArbZzfNIu0g">
+          <ownedEnd xmi:id="_Fxcw_8G2EeGArbZzfNIu0g" name="ArrayIterator" type="_Fs_Hs8G2EeGArbZzfNIu0g" association="_Fxcw_sG2EeGArbZzfNIu0g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_FxcxAMG2EeGArbZzfNIu0g" memberEnd="_FxJ2EMG2EeGArbZzfNIu0g _FxcxAcG2EeGArbZzfNIu0g">
+          <ownedEnd xmi:id="_FxcxAcG2EeGArbZzfNIu0g" name="DinerMenuIterator" type="_FtIRocG2EeGArbZzfNIu0g" association="_FxcxAMG2EeGArbZzfNIu0g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_FrfS4MG2EeGArbZzfNIu0g" name="Menu">
+          <ownedOperation xmi:id="_FuBpgMG2EeGArbZzfNIu0g" name="createIterator" visibility="public">
+            <ownedParameter xmi:id="_FuBpgcG2EeGArbZzfNIu0g" name="return" type="_Fs_HssG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FsibwMG2EeGArbZzfNIu0g" name="Waitress">
+          <ownedAttribute xmi:id="_FuLagMG2EeGArbZzfNIu0g" name="pancakeHouseMenu" visibility="package" type="_Fs_HscG2EeGArbZzfNIu0g" association="_Fxcw9sG2EeGArbZzfNIu0g"/>
+          <ownedAttribute xmi:id="_FuLagcG2EeGArbZzfNIu0g" name="dinerMenu" visibility="package" type="_Fs1WsMG2EeGArbZzfNIu0g" association="_Fxcw-MG2EeGArbZzfNIu0g"/>
+          <ownedOperation xmi:id="_FuLagsG2EeGArbZzfNIu0g" name="printMenu" visibility="public"/>
+          <ownedOperation xmi:id="_FuUkcMG2EeGArbZzfNIu0g" name="printMenu" visibility="private">
+            <ownedParameter xmi:id="_FuUkccG2EeGArbZzfNIu0g" name="iterator" type="_Fs_HssG2EeGArbZzfNIu0g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FuUkcsG2EeGArbZzfNIu0g" name="printVegetarianMenu" visibility="public"/>
+          <ownedOperation xmi:id="_FwaPIsG2EeGArbZzfNIu0g" name="isItemVegetarian" visibility="public">
+            <ownedParameter xmi:id="_FwaPI8G2EeGArbZzfNIu0g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_FwaPJMG2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FwaPJcG2EeGArbZzfNIu0g" name="printVegetarianMenu" visibility="private">
+            <ownedParameter xmi:id="_FwaPJsG2EeGArbZzfNIu0g" name="iterator" type="_Fs_HssG2EeGArbZzfNIu0g"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FwkAIMG2EeGArbZzfNIu0g" name="isVegetarian" visibility="private">
+            <ownedParameter xmi:id="_FwkAIcG2EeGArbZzfNIu0g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_FwkAIsG2EeGArbZzfNIu0g" name="iterator" type="_Fs_HssG2EeGArbZzfNIu0g"/>
+            <ownedParameter xmi:id="_FwkAI8G2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FsrlsMG2EeGArbZzfNIu0g" name="MenuItem">
+          <ownedAttribute xmi:id="_FwkAJMG2EeGArbZzfNIu0g" name="name" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_FwkAJcG2EeGArbZzfNIu0g" name="description" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_FwkAJsG2EeGArbZzfNIu0g" name="vegetarian" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_FwkAKMG2EeGArbZzfNIu0g" name="price" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_FwtKEMG2EeGArbZzfNIu0g" name="getName" visibility="public">
+            <ownedParameter xmi:id="_FwtKEcG2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FwtKEsG2EeGArbZzfNIu0g" name="getDescription" visibility="public">
+            <ownedParameter xmi:id="_FwtKE8G2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FwtKFMG2EeGArbZzfNIu0g" name="getPrice" visibility="public">
+            <ownedParameter xmi:id="_FwtKFcG2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FwtKFsG2EeGArbZzfNIu0g" name="isVegetarian" visibility="public">
+            <ownedParameter xmi:id="_FwtKF8G2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FwtKGMG2EeGArbZzfNIu0g" name="toString" visibility="public">
+            <ownedParameter xmi:id="_FwtKGcG2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Fs1WsMG2EeGArbZzfNIu0g" name="DinerMenu" clientDependency="_FwtKGsG2EeGArbZzfNIu0g">
+          <ownedAttribute xmi:id="_Fw27EMG2EeGArbZzfNIu0g" name="MAX_ITEMS" visibility="package" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Fw27EcG2EeGArbZzfNIu0g" value="6"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Fw27EsG2EeGArbZzfNIu0g" name="numberOfItems" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Fw27E8G2EeGArbZzfNIu0g"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Fw27FMG2EeGArbZzfNIu0g" name="menuItems" visibility="package" type="_FsrlsMG2EeGArbZzfNIu0g" association="_Fxcw-sG2EeGArbZzfNIu0g">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fw27FcG2EeGArbZzfNIu0g" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Fw27FsG2EeGArbZzfNIu0g"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_FwtKGsG2EeGArbZzfNIu0g" name="Menu" supplier="_FrfS4MG2EeGArbZzfNIu0g" client="_Fs1WsMG2EeGArbZzfNIu0g" contract="_FrfS4MG2EeGArbZzfNIu0g"/>
+          <ownedOperation xmi:id="_Fw27F8G2EeGArbZzfNIu0g" name="addItem" visibility="public">
+            <ownedParameter xmi:id="_Fw27GMG2EeGArbZzfNIu0g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Fw27GcG2EeGArbZzfNIu0g" name="description">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Fw27GsG2EeGArbZzfNIu0g" name="vegetarian">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Fw27G8G2EeGArbZzfNIu0g" name="price">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Fw27HMG2EeGArbZzfNIu0g" name="getMenuItems" visibility="public">
+            <ownedParameter xmi:id="_Fw27HcG2EeGArbZzfNIu0g" name="return" type="_FsrlsMG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Fw27HsG2EeGArbZzfNIu0g" name="createIterator" visibility="public">
+            <ownedParameter xmi:id="_Fw27H8G2EeGArbZzfNIu0g" name="return" type="_Fs_HssG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Fs_HsMG2EeGArbZzfNIu0g" name="AlternatingDinerMenuIterator" clientDependency="_Fw27IMG2EeGArbZzfNIu0g">
+          <ownedAttribute xmi:id="_Fw27IcG2EeGArbZzfNIu0g" name="list" visibility="package" type="_FsrlsMG2EeGArbZzfNIu0g" association="_Fxcw_MG2EeGArbZzfNIu0g">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fw27IsG2EeGArbZzfNIu0g" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Fw27I8G2EeGArbZzfNIu0g"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_FxAFAMG2EeGArbZzfNIu0g" name="position" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_Fw27IMG2EeGArbZzfNIu0g" name="Iterator" supplier="_Fs_HssG2EeGArbZzfNIu0g" client="_Fs_HsMG2EeGArbZzfNIu0g" contract="_Fs_HssG2EeGArbZzfNIu0g"/>
+          <ownedOperation xmi:id="_FxAFAsG2EeGArbZzfNIu0g" name="next" visibility="public">
+            <ownedParameter xmi:id="_FxAFA8G2EeGArbZzfNIu0g" name="return" type="_FxAFAcG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FxAFBMG2EeGArbZzfNIu0g" name="hasNext" visibility="public">
+            <ownedParameter xmi:id="_FxAFBcG2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FxAFBsG2EeGArbZzfNIu0g" name="toString" visibility="public">
+            <ownedParameter xmi:id="_FxAFB8G2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Fs_HscG2EeGArbZzfNIu0g" name="PancakeHouseMenu" clientDependency="_FxAFCMG2EeGArbZzfNIu0g">
+          <ownedAttribute xmi:id="_FxAFCsG2EeGArbZzfNIu0g" name="menuItems" visibility="package" type="_FxAFCcG2EeGArbZzfNIu0g"/>
+          <interfaceRealization xmi:id="_FxAFCMG2EeGArbZzfNIu0g" name="Menu" supplier="_FrfS4MG2EeGArbZzfNIu0g" client="_Fs_HscG2EeGArbZzfNIu0g" contract="_FrfS4MG2EeGArbZzfNIu0g"/>
+          <ownedOperation xmi:id="_FxAFC8G2EeGArbZzfNIu0g" name="addItem" visibility="public">
+            <ownedParameter xmi:id="_FxAFDMG2EeGArbZzfNIu0g" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_FxAFDcG2EeGArbZzfNIu0g" name="description">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_FxAFDsG2EeGArbZzfNIu0g" name="vegetarian">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_FxAFD8G2EeGArbZzfNIu0g" name="price">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FxAFEMG2EeGArbZzfNIu0g" name="getMenuItems" visibility="public">
+            <ownedParameter xmi:id="_FxAFEcG2EeGArbZzfNIu0g" name="return" type="_FxAFCcG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FxAFEsG2EeGArbZzfNIu0g" name="createIterator" visibility="public">
+            <ownedParameter xmi:id="_FxAFE8G2EeGArbZzfNIu0g" name="return" type="_Fs_HssG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FxAFFMG2EeGArbZzfNIu0g" name="toString" visibility="public">
+            <ownedParameter xmi:id="_FxAFFcG2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Fs_HssG2EeGArbZzfNIu0g" name="Iterator">
+          <ownedOperation xmi:id="_FxAFFsG2EeGArbZzfNIu0g" name="hasNext" visibility="public">
+            <ownedParameter xmi:id="_FxAFF8G2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FxJ2AMG2EeGArbZzfNIu0g" name="next" visibility="public">
+            <ownedParameter xmi:id="_FxJ2AcG2EeGArbZzfNIu0g" name="return" type="_FxAFAcG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Fs_Hs8G2EeGArbZzfNIu0g" name="ArrayIterator" clientDependency="_FxJ2AsG2EeGArbZzfNIu0g">
+          <ownedAttribute xmi:id="_FxJ2A8G2EeGArbZzfNIu0g" name="items" visibility="package" type="_FsrlsMG2EeGArbZzfNIu0g" association="_Fxcw_sG2EeGArbZzfNIu0g">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FxJ2BMG2EeGArbZzfNIu0g" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FxJ2BcG2EeGArbZzfNIu0g"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_FxJ2BsG2EeGArbZzfNIu0g" name="position" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_FxJ2B8G2EeGArbZzfNIu0g"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_FxJ2AsG2EeGArbZzfNIu0g" name="Iterator" supplier="_Fs_HssG2EeGArbZzfNIu0g" client="_Fs_Hs8G2EeGArbZzfNIu0g" contract="_Fs_HssG2EeGArbZzfNIu0g"/>
+          <ownedOperation xmi:id="_FxJ2CMG2EeGArbZzfNIu0g" name="next" visibility="public">
+            <ownedParameter xmi:id="_FxJ2CcG2EeGArbZzfNIu0g" name="return" type="_FxAFAcG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FxJ2CsG2EeGArbZzfNIu0g" name="hasNext" visibility="public">
+            <ownedParameter xmi:id="_FxJ2C8G2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FtIRoMG2EeGArbZzfNIu0g" name="MenuTestDrive">
+          <ownedOperation xmi:id="_FxJ2DMG2EeGArbZzfNIu0g" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_FxJ2DcG2EeGArbZzfNIu0g" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FxJ2DsG2EeGArbZzfNIu0g" name="printMenu" visibility="public" isStatic="true"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FtIRocG2EeGArbZzfNIu0g" name="DinerMenuIterator" clientDependency="_FxJ2D8G2EeGArbZzfNIu0g">
+          <ownedAttribute xmi:id="_FxJ2EMG2EeGArbZzfNIu0g" name="items" visibility="package" type="_FsrlsMG2EeGArbZzfNIu0g" association="_FxcxAMG2EeGArbZzfNIu0g">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FxJ2EcG2EeGArbZzfNIu0g" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FxJ2EsG2EeGArbZzfNIu0g"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_FxJ2E8G2EeGArbZzfNIu0g" name="position" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_FxJ2FMG2EeGArbZzfNIu0g"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_FxJ2D8G2EeGArbZzfNIu0g" name="Iterator" supplier="_Fs_HssG2EeGArbZzfNIu0g" client="_FtIRocG2EeGArbZzfNIu0g" contract="_Fs_HssG2EeGArbZzfNIu0g"/>
+          <ownedOperation xmi:id="_FxTnAMG2EeGArbZzfNIu0g" name="next" visibility="public">
+            <ownedParameter xmi:id="_FxTnAcG2EeGArbZzfNIu0g" name="return" type="_FxAFAcG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FxTnAsG2EeGArbZzfNIu0g" name="hasNext" visibility="public">
+            <ownedParameter xmi:id="_FxTnA8G2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FtIRosG2EeGArbZzfNIu0g" name="ArrayListIterator" clientDependency="_FxTnBMG2EeGArbZzfNIu0g">
+          <ownedAttribute xmi:id="_FxTnBcG2EeGArbZzfNIu0g" name="items" visibility="package" type="_FxAFCcG2EeGArbZzfNIu0g"/>
+          <ownedAttribute xmi:id="_FxTnBsG2EeGArbZzfNIu0g" name="position" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_FxTnB8G2EeGArbZzfNIu0g"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_FxTnBMG2EeGArbZzfNIu0g" name="Iterator" supplier="_Fs_HssG2EeGArbZzfNIu0g" client="_FtIRosG2EeGArbZzfNIu0g" contract="_Fs_HssG2EeGArbZzfNIu0g"/>
+          <ownedOperation xmi:id="_FxTnCMG2EeGArbZzfNIu0g" name="next" visibility="public">
+            <ownedParameter xmi:id="_FxTnCcG2EeGArbZzfNIu0g" name="return" type="_FxAFAcG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_FxTnCsG2EeGArbZzfNIu0g" name="hasNext" visibility="public">
+            <ownedParameter xmi:id="_FxTnC8G2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FtIRo8G2EeGArbZzfNIu0g" name="PancakeHouseMenuIterator" clientDependency="_FxTnDMG2EeGArbZzfNIu0g">
+          <ownedAttribute xmi:id="_FxTnDcG2EeGArbZzfNIu0g" name="items" visibility="package" type="_FxAFCcG2EeGArbZzfNIu0g"/>
+          <ownedAttribute xmi:id="_Fxcw8MG2EeGArbZzfNIu0g" name="position" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Fxcw8cG2EeGArbZzfNIu0g"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_FxTnDMG2EeGArbZzfNIu0g" name="Iterator" supplier="_Fs_HssG2EeGArbZzfNIu0g" client="_FtIRo8G2EeGArbZzfNIu0g" contract="_Fs_HssG2EeGArbZzfNIu0g"/>
+          <ownedOperation xmi:id="_Fxcw8sG2EeGArbZzfNIu0g" name="next" visibility="public">
+            <ownedParameter xmi:id="_Fxcw88G2EeGArbZzfNIu0g" name="return" type="_FxAFAcG2EeGArbZzfNIu0g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Fxcw9MG2EeGArbZzfNIu0g" name="hasNext" visibility="public">
+            <ownedParameter xmi:id="_Fxcw9cG2EeGArbZzfNIu0g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_FxAFAcG2EeGArbZzfNIu0g" name="Object"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_FxAFCcG2EeGArbZzfNIu0g" name="ArrayList"/>
+</uml:Model>

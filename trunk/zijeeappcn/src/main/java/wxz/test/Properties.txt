@@ -1,0 +1,89 @@
+首先，继承关系：java.lang.Object => java.util.Dictionary => java.util.Hashtable => java.util.Properties
+其作用是读取“键值对”文件，如一些XML。
+主要方法(省略参数):list(), load(), getProperty(), setProperty(), loadFromXML(), storeToXML()
+例：
+    Properties prop = new Properties();
+FileInputStream fis =new FileInputStream("sample.properties");
+prop.load(fis);
+prop.list(System.out);
+
+例：
+package com.ibm.slideriver.test;
+
+import java.util.Properties;
+import com.ibm.slideriver.test.load.TestFactory;
+
+public class Configuration {
+public static Properties conf;
+public static void loadConfigure() {
+conf = new Properties();
+try {
+conf.load(TestFactory.class.getResourceAsStream("/conf.properties"));
+} catch (Exception e) {
+logger.debug("Load resource failure: " + e.getMessage());
+}
+}
+
+public static String getBrowserURL() {
+return conf.getProperty("属性名");
+}
+
+public static int getTaskCount() {
+try {
+return Integer.parseInt(conf.getProperty("属性名"));
+} catch (NumberFormatException e) {
+e.printStackTrace();
+return 0;
+}
+}
+}
+////////////////////////////////////
+package com.ibm.slideriver.test.load;
+import com.ibm.slideriver.test.Configuration;
+
+public class UploadTestFactory extends TestFactory {
+
+public static void main(String[] args){
+Configuration.loadConfigure();
+new UploadTest(params);
+}
+}
+
+////////////////////////////////
+package com.ibm.slideriver.test.load;
+import com.ibm.slideriver.test.Configuration;
+
+public class UploadTest{
+
+public static void main(String[] args){
+Configuration.getBrowserURL();
+Configuration.getTaskCount();
+}
+}
+
+getResourceAsStream（）的说明：
+Class.getResourceAsStream() 时,路径应该是以"/"开头，注意文件放置的位置,应该放在classpath下
+如：mypackage.Hello.class.getResourceAsStream("/config/config.properites");
+这样就给内存中已经存在的mypackage.Hello类追加了config.properites中的参数。
+
+这是得到配置资源的一般做法。
+
+加载Properties的常用方法：
+1. 使用class变量的getResourceAsStream()方法
+示例：    InputStream in = this.class.getResourceAsStream(fileName); 
+Properties p = newProperties();
+p.load(in);
+一般写为：
+p.load(this.class.getResourceAsStream(fileName);
+
+2. 使用java.lang.ClassLoader类的 getSystemResourceAsStream()静态方法
+示例：
+InputStream in = ClassLoader.getSystemResourceAsStream(fileName); 
+Properties p = newProperties();
+p.load(in);
+
+3. Servlet中可以使用 javax.servlet.ServletContext的getResourceAsStream()方法
+示例：
+InputStreamin=context.getResourceAsStream(path); 
+Propertiesp=newProperties();
+p.load(in); 

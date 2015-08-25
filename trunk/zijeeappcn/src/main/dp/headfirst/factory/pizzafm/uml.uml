@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="uml">
+  <packagedElement xmi:type="uml:Package" xmi:id="_xd3PAbs-EeG-94CZr0_i-g" name="headfirst">
+    <packagedElement xmi:type="uml:Package" xmi:id="_xd3PArs-EeG-94CZr0_i-g" name="factory">
+      <packagedElement xmi:type="uml:Package" xmi:id="_xd3PA7s-EeG-94CZr0_i-g" name="pizzafm">
+        <packagedElement xmi:type="uml:Class" xmi:id="_xd3PBLs-EeG-94CZr0_i-g" name="PizzaTestDrive">
+          <ownedOperation xmi:id="_xewm4bs-EeG-94CZr0_i-g" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_xewm4rs-EeG-94CZr0_i-g" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xd3PBbs-EeG-94CZr0_i-g" name="ChicagoStyleClamPizza">
+          <generalization xmi:id="_xewm47s-EeG-94CZr0_i-g" general="_xeKJ8Ls-EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_xewm5Ls-EeG-94CZr0_i-g" name="cut" visibility="package"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xd3PBrs-EeG-94CZr0_i-g" name="NYPizzaStore">
+          <generalization xmi:id="_xewm5bs-EeG-94CZr0_i-g" general="_xeBAA7s-EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_xewm5rs-EeG-94CZr0_i-g" name="createPizza" visibility="package">
+            <ownedParameter xmi:id="_xewm57s-EeG-94CZr0_i-g" name="item">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_xewm6Ls-EeG-94CZr0_i-g" name="return" type="_xeKJ8Ls-EeG-94CZr0_i-g" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeBAALs-EeG-94CZr0_i-g" name="NYStyleClamPizza">
+          <generalization xmi:id="_xewm6bs-EeG-94CZr0_i-g" general="_xeKJ8Ls-EeG-94CZr0_i-g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeBAAbs-EeG-94CZr0_i-g" name="ChicagoStyleVeggiePizza">
+          <generalization xmi:id="_xewm6rs-EeG-94CZr0_i-g" general="_xeKJ8Ls-EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_xewm67s-EeG-94CZr0_i-g" name="cut" visibility="package"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeBAArs-EeG-94CZr0_i-g" name="NYStylePepperoniPizza">
+          <generalization xmi:id="_xewm7Ls-EeG-94CZr0_i-g" general="_xeKJ8Ls-EeG-94CZr0_i-g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeBAA7s-EeG-94CZr0_i-g" name="PizzaStore" isAbstract="true">
+          <ownedOperation xmi:id="_xewm7bs-EeG-94CZr0_i-g" name="createPizza" visibility="package" isAbstract="true">
+            <ownedParameter xmi:id="_xewm7rs-EeG-94CZr0_i-g" name="item">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_xewm77s-EeG-94CZr0_i-g" name="return" type="_xeKJ8Ls-EeG-94CZr0_i-g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_xewm8Ls-EeG-94CZr0_i-g" name="orderPizza" visibility="public">
+            <ownedParameter xmi:id="_xewm8bs-EeG-94CZr0_i-g" name="type">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_xewm8rs-EeG-94CZr0_i-g" name="return" type="_xeKJ8Ls-EeG-94CZr0_i-g" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeBABLs-EeG-94CZr0_i-g" name="NYStyleCheesePizza">
+          <generalization xmi:id="_xewm87s-EeG-94CZr0_i-g" general="_xeKJ8Ls-EeG-94CZr0_i-g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeBABbs-EeG-94CZr0_i-g" name="NYStyleVeggiePizza">
+          <generalization xmi:id="_xewm9Ls-EeG-94CZr0_i-g" general="_xeKJ8Ls-EeG-94CZr0_i-g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeKJ8Ls-EeG-94CZr0_i-g" name="Pizza" isAbstract="true">
+          <ownedAttribute xmi:id="_xe5w0Ls-EeG-94CZr0_i-g" name="name" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_xe5w0bs-EeG-94CZr0_i-g" name="dough" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_xe5w0rs-EeG-94CZr0_i-g" name="sauce" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_xe5w1Ls-EeG-94CZr0_i-g" name="toppings" visibility="package" type="_xe5w07s-EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_xe5w1bs-EeG-94CZr0_i-g" name="prepare" visibility="package"/>
+          <ownedOperation xmi:id="_xe5w1rs-EeG-94CZr0_i-g" name="bake" visibility="package"/>
+          <ownedOperation xmi:id="_xe5w17s-EeG-94CZr0_i-g" name="cut" visibility="package"/>
+          <ownedOperation xmi:id="_xfDh0Ls-EeG-94CZr0_i-g" name="box" visibility="package"/>
+          <ownedOperation xmi:id="_xfDh0bs-EeG-94CZr0_i-g" name="getName" visibility="public">
+            <ownedParameter xmi:id="_xfDh0rs-EeG-94CZr0_i-g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_xfDh07s-EeG-94CZr0_i-g" name="toString" visibility="public">
+            <ownedParameter xmi:id="_xfDh1Ls-EeG-94CZr0_i-g" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeKJ8bs-EeG-94CZr0_i-g" name="DependentPizzaStore">
+          <ownedOperation xmi:id="_xfDh1bs-EeG-94CZr0_i-g" name="createPizza" visibility="public">
+            <ownedParameter xmi:id="_xfDh1rs-EeG-94CZr0_i-g" name="style">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_xfDh17s-EeG-94CZr0_i-g" name="type">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_xfDh2Ls-EeG-94CZr0_i-g" name="return" type="_xeKJ8Ls-EeG-94CZr0_i-g" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeKJ8rs-EeG-94CZr0_i-g" name="ChicagoStyleCheesePizza">
+          <generalization xmi:id="_xfDh2bs-EeG-94CZr0_i-g" general="_xeKJ8Ls-EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_xfDh2rs-EeG-94CZr0_i-g" name="cut" visibility="package"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeKJ87s-EeG-94CZr0_i-g" name="ChicagoPizzaStore">
+          <generalization xmi:id="_xfDh27s-EeG-94CZr0_i-g" general="_xeBAA7s-EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_xfDh3Ls-EeG-94CZr0_i-g" name="createPizza" visibility="package">
+            <ownedParameter xmi:id="_xfDh3bs-EeG-94CZr0_i-g" name="item">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_xfDh3rs-EeG-94CZr0_i-g" name="return" type="_xeKJ8Ls-EeG-94CZr0_i-g" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xeKJ9Ls-EeG-94CZr0_i-g" name="ChicagoStylePepperoniPizza">
+          <generalization xmi:id="_xfDh37s-EeG-94CZr0_i-g" general="_xeKJ8Ls-EeG-94CZr0_i-g"/>
+          <ownedOperation xmi:id="_xfDh4Ls-EeG-94CZr0_i-g" name="cut" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_xe5w07s-EeG-94CZr0_i-g" name="ArrayList"/>
+</uml:Model>

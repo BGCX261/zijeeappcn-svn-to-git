@@ -1,0 +1,7 @@
+<!ELEMENT dbconfig (db+)>
+<!ELEMENT db (driver,url,user,password)>
+<!ELEMENT driver (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ATTLIST db type CDATA #REQUIRED>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="uml">
+  <packagedElement xmi:type="uml:Package" xmi:id="_SA-lwcDuEeGGv4h-yhJwzw" name="headfirst">
+    <packagedElement xmi:type="uml:Package" xmi:id="_SA-lwsDuEeGGv4h-yhJwzw" name="command">
+      <packagedElement xmi:type="uml:Package" xmi:id="_SA-lw8DuEeGGv4h-yhJwzw" name="remote">
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkgMDuEeGGv4h-yhJwzw" memberEnd="_SBuMpsDuEeGGv4h-yhJwzw _SCnkgcDuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkgcDuEeGGv4h-yhJwzw" name="GarageDoorUpCommand" type="_SA-lxcDuEeGGv4h-yhJwzw" association="_SCnkgMDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkgsDuEeGGv4h-yhJwzw" memberEnd="_SBuMqcDuEeGGv4h-yhJwzw _SCnkg8DuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkg8DuEeGGv4h-yhJwzw" name="HottubOnCommand" type="_SA-lxsDuEeGGv4h-yhJwzw" association="_SCnkgsDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkhMDuEeGGv4h-yhJwzw" memberEnd="_SBuMrMDuEeGGv4h-yhJwzw _SCnkhcDuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkhcDuEeGGv4h-yhJwzw" name="StereoOnWithCDCommand" type="_SA-lx8DuEeGGv4h-yhJwzw" association="_SCnkhMDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkhsDuEeGGv4h-yhJwzw" memberEnd="_SBuMr8DuEeGGv4h-yhJwzw _SCnkh8DuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkh8DuEeGGv4h-yhJwzw" name="LivingroomLightOffCommand" type="_SA-lyMDuEeGGv4h-yhJwzw" association="_SCnkhsDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkiMDuEeGGv4h-yhJwzw" memberEnd="_SCBHm8DuEeGGv4h-yhJwzw _SCnkicDuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkicDuEeGGv4h-yhJwzw" name="CeilingFanOnCommand" type="_SA-lzMDuEeGGv4h-yhJwzw" association="_SCnkiMDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkisDuEeGGv4h-yhJwzw" memberEnd="_SCBHosDuEeGGv4h-yhJwzw _SCnki8DuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnki8DuEeGGv4h-yhJwzw" name="HottubOffCommand" type="_SBHvscDuEeGGv4h-yhJwzw" association="_SCnkisDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkjMDuEeGGv4h-yhJwzw" memberEnd="_SCK4kMDuEeGGv4h-yhJwzw _SCnkjcDuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkjcDuEeGGv4h-yhJwzw" name="RemoteControl" type="_SBHvs8DuEeGGv4h-yhJwzw" association="_SCnkjMDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkjsDuEeGGv4h-yhJwzw" memberEnd="_SCK4k8DuEeGGv4h-yhJwzw _SCnkj8DuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkj8DuEeGGv4h-yhJwzw" name="RemoteControl" type="_SBHvs8DuEeGGv4h-yhJwzw" association="_SCnkjsDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkkMDuEeGGv4h-yhJwzw" memberEnd="_SCK4ocDuEeGGv4h-yhJwzw _SCnkkcDuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkkcDuEeGGv4h-yhJwzw" name="GarageDoorDownCommand" type="_SBHvtMDuEeGGv4h-yhJwzw" association="_SCnkkMDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkksDuEeGGv4h-yhJwzw" memberEnd="_SCK4pMDuEeGGv4h-yhJwzw _SCnkk8DuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkk8DuEeGGv4h-yhJwzw" name="StereoOffCommand" type="_SBHvtcDuEeGGv4h-yhJwzw" association="_SCnkksDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnklMDuEeGGv4h-yhJwzw" memberEnd="_SCK4qMDuEeGGv4h-yhJwzw _SCnklcDuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnklcDuEeGGv4h-yhJwzw" name="CeilingFanOffCommand" type="_SBHvt8DuEeGGv4h-yhJwzw" association="_SCnklMDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnklsDuEeGGv4h-yhJwzw" memberEnd="_SCUCgsDuEeGGv4h-yhJwzw _SCnkl8DuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkl8DuEeGGv4h-yhJwzw" name="LivingroomLightOnCommand" type="_SBHvuMDuEeGGv4h-yhJwzw" association="_SCnklsDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkmMDuEeGGv4h-yhJwzw" memberEnd="_SCUChcDuEeGGv4h-yhJwzw _SCnkmcDuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkmcDuEeGGv4h-yhJwzw" name="LightOnCommand" type="_SBHvucDuEeGGv4h-yhJwzw" association="_SCnkmMDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SCnkmsDuEeGGv4h-yhJwzw" memberEnd="_SCdzj8DuEeGGv4h-yhJwzw _SCnkm8DuEeGGv4h-yhJwzw">
+          <ownedEnd xmi:id="_SCnkm8DuEeGGv4h-yhJwzw" name="LightOffCommand" type="_SBHvvMDuEeGGv4h-yhJwzw" association="_SCnkmsDuEeGGv4h-yhJwzw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA-lxMDuEeGGv4h-yhJwzw" name="Stereo">
+          <ownedAttribute xmi:id="_SBkb78DuEeGGv4h-yhJwzw" name="location" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_SBkb8MDuEeGGv4h-yhJwzw" name="on" visibility="public"/>
+          <ownedOperation xmi:id="_SBkb8cDuEeGGv4h-yhJwzw" name="off" visibility="public"/>
+          <ownedOperation xmi:id="_SBkb8sDuEeGGv4h-yhJwzw" name="setCD" visibility="public"/>
+          <ownedOperation xmi:id="_SBuMoMDuEeGGv4h-yhJwzw" name="setDVD" visibility="public"/>
+          <ownedOperation xmi:id="_SBuMocDuEeGGv4h-yhJwzw" name="setRadio" visibility="public"/>
+          <ownedOperation xmi:id="_SBuMo8DuEeGGv4h-yhJwzw" name="setVolume" visibility="public">
+            <ownedParameter xmi:id="_SBuMpMDuEeGGv4h-yhJwzw" name="volume">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA-lxcDuEeGGv4h-yhJwzw" name="GarageDoorUpCommand" clientDependency="_SBuMpcDuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SBuMpsDuEeGGv4h-yhJwzw" name="garageDoor" visibility="package" type="_SBHvu8DuEeGGv4h-yhJwzw" association="_SCnkgMDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SBuMpcDuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SA-lxcDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SBuMp8DuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA-lxsDuEeGGv4h-yhJwzw" name="HottubOnCommand" clientDependency="_SBuMqMDuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SBuMqcDuEeGGv4h-yhJwzw" name="hottub" visibility="package" type="_SBHvusDuEeGGv4h-yhJwzw" association="_SCnkgsDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SBuMqMDuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SA-lxsDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SBuMqsDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA-lx8DuEeGGv4h-yhJwzw" name="StereoOnWithCDCommand" clientDependency="_SBuMq8DuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SBuMrMDuEeGGv4h-yhJwzw" name="stereo" visibility="package" type="_SA-lxMDuEeGGv4h-yhJwzw" association="_SCnkhMDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SBuMq8DuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SA-lx8DuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SBuMrcDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA-lyMDuEeGGv4h-yhJwzw" name="LivingroomLightOffCommand" clientDependency="_SBuMrsDuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SBuMr8DuEeGGv4h-yhJwzw" name="light" visibility="package" type="_SBHvsMDuEeGGv4h-yhJwzw" association="_SCnkhsDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SBuMrsDuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SA-lyMDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SBuMsMDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA-lycDuEeGGv4h-yhJwzw" name="TV">
+          <ownedAttribute xmi:id="_SBuMscDuEeGGv4h-yhJwzw" name="location" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_SBuMssDuEeGGv4h-yhJwzw" name="channel" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_SBuMs8DuEeGGv4h-yhJwzw" name="on" visibility="public"/>
+          <ownedOperation xmi:id="_SBuMtMDuEeGGv4h-yhJwzw" name="off" visibility="public"/>
+          <ownedOperation xmi:id="_SBuMtcDuEeGGv4h-yhJwzw" name="setInputChannel" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA-lysDuEeGGv4h-yhJwzw" name="CeilingFan">
+          <ownedAttribute xmi:id="_SB39oMDuEeGGv4h-yhJwzw" name="location" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_SB39ocDuEeGGv4h-yhJwzw" value=""/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_SB39osDuEeGGv4h-yhJwzw" name="level" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_SB39o8DuEeGGv4h-yhJwzw" name="HIGH" visibility="public" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_SB39pMDuEeGGv4h-yhJwzw" value="2"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_SB39pcDuEeGGv4h-yhJwzw" name="MEDIUM" visibility="public" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_SB39psDuEeGGv4h-yhJwzw" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_SCBHkMDuEeGGv4h-yhJwzw" name="LOW" visibility="public" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_SCBHkcDuEeGGv4h-yhJwzw"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_SCBHksDuEeGGv4h-yhJwzw" name="high" visibility="public"/>
+          <ownedOperation xmi:id="_SCBHk8DuEeGGv4h-yhJwzw" name="medium" visibility="public"/>
+          <ownedOperation xmi:id="_SCBHlMDuEeGGv4h-yhJwzw" name="low" visibility="public"/>
+          <ownedOperation xmi:id="_SCBHlcDuEeGGv4h-yhJwzw" name="off" visibility="public"/>
+          <ownedOperation xmi:id="_SCBHlsDuEeGGv4h-yhJwzw" name="getSpeed" visibility="public">
+            <ownedParameter xmi:id="_SCBHl8DuEeGGv4h-yhJwzw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA-ly8DuEeGGv4h-yhJwzw" name="RemoteLoader">
+          <ownedOperation xmi:id="_SCBHmMDuEeGGv4h-yhJwzw" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_SCBHmcDuEeGGv4h-yhJwzw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA-lzMDuEeGGv4h-yhJwzw" name="CeilingFanOnCommand" clientDependency="_SCBHmsDuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SCBHm8DuEeGGv4h-yhJwzw" name="ceilingFan" visibility="package" type="_SA-lysDuEeGGv4h-yhJwzw" association="_SCnkiMDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SCBHmsDuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SA-lzMDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SCBHnMDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvsMDuEeGGv4h-yhJwzw" name="Light">
+          <ownedAttribute xmi:id="_SCBHncDuEeGGv4h-yhJwzw" name="location" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_SCBHnsDuEeGGv4h-yhJwzw" value=""/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_SCBHn8DuEeGGv4h-yhJwzw" name="on" visibility="public"/>
+          <ownedOperation xmi:id="_SCBHoMDuEeGGv4h-yhJwzw" name="off" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvscDuEeGGv4h-yhJwzw" name="HottubOffCommand" clientDependency="_SCBHocDuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SCBHosDuEeGGv4h-yhJwzw" name="hottub" visibility="package" type="_SBHvusDuEeGGv4h-yhJwzw" association="_SCnkisDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SCBHocDuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SBHvscDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SCBHo8DuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvssDuEeGGv4h-yhJwzw" name="NoCommand" clientDependency="_SCBHpMDuEeGGv4h-yhJwzw">
+          <interfaceRealization xmi:id="_SCBHpMDuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SBHvssDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SCBHpcDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvs8DuEeGGv4h-yhJwzw" name="RemoteControl">
+          <ownedAttribute xmi:id="_SCK4kMDuEeGGv4h-yhJwzw" name="onCommands" visibility="package" type="_SBHvtsDuEeGGv4h-yhJwzw" association="_SCnkjMDuEeGGv4h-yhJwzw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SCK4kcDuEeGGv4h-yhJwzw" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SCK4ksDuEeGGv4h-yhJwzw"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_SCK4k8DuEeGGv4h-yhJwzw" name="offCommands" visibility="package" type="_SBHvtsDuEeGGv4h-yhJwzw" association="_SCnkjsDuEeGGv4h-yhJwzw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SCK4lMDuEeGGv4h-yhJwzw" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SCK4lcDuEeGGv4h-yhJwzw"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_uf-9AMDuEeGGv4h-yhJwzw" name="Property1"/>
+          <ownedOperation xmi:id="_SCK4lsDuEeGGv4h-yhJwzw" name="setCommand" visibility="public">
+            <ownedParameter xmi:id="_SCK4l8DuEeGGv4h-yhJwzw" name="slot">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_SCK4mMDuEeGGv4h-yhJwzw" name="onCommand" type="_SBHvtsDuEeGGv4h-yhJwzw"/>
+            <ownedParameter xmi:id="_SCK4mcDuEeGGv4h-yhJwzw" name="offCommand" type="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_SCK4msDuEeGGv4h-yhJwzw" name="onButtonWasPushed" visibility="public">
+            <ownedParameter xmi:id="_SCK4m8DuEeGGv4h-yhJwzw" name="slot">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_SCK4nMDuEeGGv4h-yhJwzw" name="offButtonWasPushed" visibility="public">
+            <ownedParameter xmi:id="_SCK4ncDuEeGGv4h-yhJwzw" name="slot">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_SCK4nsDuEeGGv4h-yhJwzw" name="toString" visibility="public">
+            <ownedParameter xmi:id="_SCK4n8DuEeGGv4h-yhJwzw" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_vbSussDuEeGGv4h-yhJwzw" name="setCommond"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvtMDuEeGGv4h-yhJwzw" name="GarageDoorDownCommand" clientDependency="_SCK4oMDuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SCK4ocDuEeGGv4h-yhJwzw" name="garageDoor" visibility="package" type="_SBHvu8DuEeGGv4h-yhJwzw" association="_SCnkkMDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SCK4oMDuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SBHvtMDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SCK4osDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvtcDuEeGGv4h-yhJwzw" name="StereoOffCommand" clientDependency="_SCK4o8DuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SCK4pMDuEeGGv4h-yhJwzw" name="stereo" visibility="package" type="_SA-lxMDuEeGGv4h-yhJwzw" association="_SCnkksDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SCK4o8DuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SBHvtcDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SCK4pcDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_SBHvtsDuEeGGv4h-yhJwzw" name="Command">
+          <ownedOperation xmi:id="_SCK4psDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvt8DuEeGGv4h-yhJwzw" name="CeilingFanOffCommand" clientDependency="_SCK4p8DuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SCK4qMDuEeGGv4h-yhJwzw" name="ceilingFan" visibility="package" type="_SA-lysDuEeGGv4h-yhJwzw" association="_SCnklMDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SCK4p8DuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SBHvt8DuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SCUCgMDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvuMDuEeGGv4h-yhJwzw" name="LivingroomLightOnCommand" clientDependency="_SCUCgcDuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SCUCgsDuEeGGv4h-yhJwzw" name="light" visibility="package" type="_SBHvsMDuEeGGv4h-yhJwzw" association="_SCnklsDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SCUCgcDuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SBHvuMDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SCUCg8DuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvucDuEeGGv4h-yhJwzw" name="LightOnCommand" clientDependency="_SCUChMDuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SCUChcDuEeGGv4h-yhJwzw" name="light" visibility="package" type="_SBHvsMDuEeGGv4h-yhJwzw" association="_SCnkmMDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SCUChMDuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SBHvucDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SCUChsDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvusDuEeGGv4h-yhJwzw" name="Hottub">
+          <ownedAttribute xmi:id="_SCUCiMDuEeGGv4h-yhJwzw" name="on" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_SCUCicDuEeGGv4h-yhJwzw" name="temperature" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_SCUCisDuEeGGv4h-yhJwzw" name="on" visibility="public"/>
+          <ownedOperation xmi:id="_SCUCi8DuEeGGv4h-yhJwzw" name="off" visibility="public"/>
+          <ownedOperation xmi:id="_SCdzgMDuEeGGv4h-yhJwzw" name="bubblesOn" visibility="public"/>
+          <ownedOperation xmi:id="_SCdzgcDuEeGGv4h-yhJwzw" name="bubblesOff" visibility="public"/>
+          <ownedOperation xmi:id="_SCdzgsDuEeGGv4h-yhJwzw" name="jetsOn" visibility="public"/>
+          <ownedOperation xmi:id="_SCdzg8DuEeGGv4h-yhJwzw" name="jetsOff" visibility="public"/>
+          <ownedOperation xmi:id="_SCdzhMDuEeGGv4h-yhJwzw" name="setTemperature" visibility="public">
+            <ownedParameter xmi:id="_SCdzhcDuEeGGv4h-yhJwzw" name="temperature">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_SCdzhsDuEeGGv4h-yhJwzw" name="heat" visibility="public"/>
+          <ownedOperation xmi:id="_SCdzh8DuEeGGv4h-yhJwzw" name="cool" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvu8DuEeGGv4h-yhJwzw" name="GarageDoor">
+          <ownedAttribute xmi:id="_SCdziMDuEeGGv4h-yhJwzw" name="location" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_SCdzicDuEeGGv4h-yhJwzw" name="up" visibility="public"/>
+          <ownedOperation xmi:id="_SCdzisDuEeGGv4h-yhJwzw" name="down" visibility="public"/>
+          <ownedOperation xmi:id="_SCdzi8DuEeGGv4h-yhJwzw" name="stop" visibility="public"/>
+          <ownedOperation xmi:id="_SCdzjMDuEeGGv4h-yhJwzw" name="lightOn" visibility="public"/>
+          <ownedOperation xmi:id="_SCdzjcDuEeGGv4h-yhJwzw" name="lightOff" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SBHvvMDuEeGGv4h-yhJwzw" name="LightOffCommand" clientDependency="_SCdzjsDuEeGGv4h-yhJwzw">
+          <ownedAttribute xmi:id="_SCdzj8DuEeGGv4h-yhJwzw" name="light" visibility="package" type="_SBHvsMDuEeGGv4h-yhJwzw" association="_SCnkmsDuEeGGv4h-yhJwzw"/>
+          <interfaceRealization xmi:id="_SCdzjsDuEeGGv4h-yhJwzw" name="Command" supplier="_SBHvtsDuEeGGv4h-yhJwzw" client="_SBHvvMDuEeGGv4h-yhJwzw" contract="_SBHvtsDuEeGGv4h-yhJwzw"/>
+          <ownedOperation xmi:id="_SCdzkMDuEeGGv4h-yhJwzw" name="execute" visibility="public"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="uml">
+  <packagedElement xmi:type="uml:Package" xmi:id="_PVE8Mb6pEeGA6dxrUD4RJQ" name="headfirst">
+    <packagedElement xmi:type="uml:Package" xmi:id="_PVOGIL6pEeGA6dxrUD4RJQ" name="composite">
+      <packagedElement xmi:type="uml:Package" xmi:id="_PVOGIb6pEeGA6dxrUD4RJQ" name="menu">
+        <packagedElement xmi:type="uml:Association" xmi:id="_PYNItb6pEeGA6dxrUD4RJQ" memberEnd="_PVqyEL6pEeGA6dxrUD4RJQ _PYNItr6pEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_PYNItr6pEeGA6dxrUD4RJQ" name="Waitress" type="_PVOGIr6pEeGA6dxrUD4RJQ" association="_PYNItb6pEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PVOGIr6pEeGA6dxrUD4RJQ" name="Waitress">
+          <ownedAttribute xmi:id="_PVqyEL6pEeGA6dxrUD4RJQ" name="allMenus" visibility="package" type="_PVOGJL6pEeGA6dxrUD4RJQ" association="_PYNItb6pEeGA6dxrUD4RJQ"/>
+          <ownedOperation xmi:id="_PV0jEL6pEeGA6dxrUD4RJQ" name="printMenu" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PVOGI76pEeGA6dxrUD4RJQ" name="MenuItem">
+          <generalization xmi:id="_PV0jEb6pEeGA6dxrUD4RJQ" general="_PVOGJL6pEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_PXmrwb6pEeGA6dxrUD4RJQ" name="name" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_PXmrwr6pEeGA6dxrUD4RJQ" name="description" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_PXwcwb6pEeGA6dxrUD4RJQ" name="vegetarian" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_PXwcw76pEeGA6dxrUD4RJQ" name="price" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_PXwcxL6pEeGA6dxrUD4RJQ" name="getName" visibility="public">
+            <ownedParameter xmi:id="_PXwcxb6pEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PXwcxr6pEeGA6dxrUD4RJQ" name="getDescription" visibility="public">
+            <ownedParameter xmi:id="_PXwcx76pEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PX6NwL6pEeGA6dxrUD4RJQ" name="getPrice" visibility="public">
+            <ownedParameter xmi:id="_PX6Nwb6pEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PX6Nwr6pEeGA6dxrUD4RJQ" name="isVegetarian" visibility="public">
+            <ownedParameter xmi:id="_PX6Nw76pEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PX6NxL6pEeGA6dxrUD4RJQ" name="print" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PVOGJL6pEeGA6dxrUD4RJQ" name="MenuComponent" isAbstract="true">
+          <ownedOperation xmi:id="_PX6Nxb6pEeGA6dxrUD4RJQ" name="add" visibility="public">
+            <ownedParameter xmi:id="_PX6Nxr6pEeGA6dxrUD4RJQ" name="menuComponent" type="_PVOGJL6pEeGA6dxrUD4RJQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PX6Nx76pEeGA6dxrUD4RJQ" name="remove" visibility="public">
+            <ownedParameter xmi:id="_PX6NyL6pEeGA6dxrUD4RJQ" name="menuComponent" type="_PVOGJL6pEeGA6dxrUD4RJQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PX6Nyr6pEeGA6dxrUD4RJQ" name="getChild" visibility="public">
+            <ownedParameter xmi:id="_PX6Ny76pEeGA6dxrUD4RJQ" name="i">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_PX6NzL6pEeGA6dxrUD4RJQ" name="return" type="_PVOGJL6pEeGA6dxrUD4RJQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PX6Nzb6pEeGA6dxrUD4RJQ" name="getName" visibility="public">
+            <ownedParameter xmi:id="_PX6Nzr6pEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PX6Nz76pEeGA6dxrUD4RJQ" name="getDescription" visibility="public">
+            <ownedParameter xmi:id="_PX6N0L6pEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PX6N0b6pEeGA6dxrUD4RJQ" name="getPrice" visibility="public">
+            <ownedParameter xmi:id="_PX6N0r6pEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PX6N076pEeGA6dxrUD4RJQ" name="isVegetarian" visibility="public">
+            <ownedParameter xmi:id="_PX6N1L6pEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PX6N1b6pEeGA6dxrUD4RJQ" name="print" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PVX3IL6pEeGA6dxrUD4RJQ" name="MenuTestDrive">
+          <ownedOperation xmi:id="_PYDXsL6pEeGA6dxrUD4RJQ" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_PYDXsb6pEeGA6dxrUD4RJQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PVX3Ib6pEeGA6dxrUD4RJQ" name="Menu">
+          <generalization xmi:id="_PYDXsr6pEeGA6dxrUD4RJQ" general="_PVOGJL6pEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_PYDXtL6pEeGA6dxrUD4RJQ" name="menuComponents" visibility="package" type="_PYDXs76pEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_PYDXtb6pEeGA6dxrUD4RJQ" name="name" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_PYDXtr6pEeGA6dxrUD4RJQ" name="description" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_PYDXt76pEeGA6dxrUD4RJQ" name="add" visibility="public">
+            <ownedParameter xmi:id="_PYDXuL6pEeGA6dxrUD4RJQ" name="menuComponent" type="_PVOGJL6pEeGA6dxrUD4RJQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PYDXub6pEeGA6dxrUD4RJQ" name="remove" visibility="public">
+            <ownedParameter xmi:id="_PYDXur6pEeGA6dxrUD4RJQ" name="menuComponent" type="_PVOGJL6pEeGA6dxrUD4RJQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PYDXu76pEeGA6dxrUD4RJQ" name="getChild" visibility="public">
+            <ownedParameter xmi:id="_PYDXvL6pEeGA6dxrUD4RJQ" name="i">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_PYDXvb6pEeGA6dxrUD4RJQ" name="return" type="_PVOGJL6pEeGA6dxrUD4RJQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PYNIsL6pEeGA6dxrUD4RJQ" name="getName" visibility="public">
+            <ownedParameter xmi:id="_PYNIsb6pEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PYNIsr6pEeGA6dxrUD4RJQ" name="getDescription" visibility="public">
+            <ownedParameter xmi:id="_PYNIs76pEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_PYNItL6pEeGA6dxrUD4RJQ" name="print" visibility="public"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_PYDXs76pEeGA6dxrUD4RJQ" name="ArrayList"/>
+</uml:Model>

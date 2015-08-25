@@ -1,0 +1,63 @@
+[\d][\d]\.
+
+首先导入dom4j.jar包,这个包里面有我们创建XML文件需要用到的类,比如常用的有:
+
+Document:
+import org.dom4j.Document;
+Import org.dom4j.DocumentHelper;
+DocumentHelper.createDocument(); 获得文档对象
+addElement方法增加根节点
+getRootElement方法获得根节点
+asXML方法将文档对象包含的内容转换为字符
+addComment方法在增加注释
+getPath方法获得路径,根节点为/
+
+Element:
+import org.dom4j.Elemet;
+addElement方法增加子节点
+addAttribute方法增加属性
+getName方法获得节点名称
+asXML方法将文档对象包含的内容转换为字符
+addComment方法在增加注释
+getPath方法获得路径
+addText方法增加节点值
+setText方法设置节点值
+addNamespace方法增加命名空间
+attributeCount方法获得属性个数
+attributeValue方法获得属性值
+elementText方法指定元素的值
+
+Attribute:
+Import org.dom4j.Attribute;
+getName方法获得属性名称
+getValue方法获得属性值
+setValue方法设置属性值
+
+Node:
+import org.dom4j.Node;
+Document和Element中selectSingleNode方法获得对象
+setName方法设置节点名称
+getText方法获得节点值
+setText方法设置节点值
+
+List,Iterator:
+import java.util.List;
+Document和Element中selectNodes方法获得对象
+import java.util.Iterator;
+List中iterator方法,Iterator中hasNext方法和next方法来获得节点或属性
+
+XMLWriter:
+import org.dom4j.io.XMLWriter;
+Writer方法与OutputStream(FileOutputStream),Writer(FileWriter)
+write方法写对象
+close方法关闭写对象
+
+OutputFormat:
+import org.dom4j.io.OutputFormat;
+setEncoding方法设置字符集
+createCompactFormat方法为紧凑格式,默认
+createPrettyFormat方法为缩进格式
+
+SAXReader:
+import org.dom4j.io.SAXReader ;
+read方法与File

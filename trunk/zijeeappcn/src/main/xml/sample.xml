@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<students>
+    <student age="25"  leader="vcxz">
+    vcxzvczx
+    </student>
+    <student>
+        <name>cwb</name>
+        <college leader="zzzzzz">PC</college>
+        <telephone>62358888</telephone>
+        <notes>sssss</notes>
+    </student>
+    <student age="45">
+        <name>xxxxx</name>
+                <college leader="">xxxs</college>
+       <telephone>66666666</telephone>
+        <notes>j</notes>
+   </student>
+    <student age="">
+        <name>lxx</name>
+       <college>yyy</college>
+        <telephone>88888888</telephone>
+        <notes>222</notes>
+    </student>
+</students>

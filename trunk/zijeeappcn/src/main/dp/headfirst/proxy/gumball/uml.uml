@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="uml">
+  <packagedElement xmi:type="uml:Package" xmi:id="_0uafQb6rEeGA6dxrUD4RJQ" name="headfirst">
+    <packagedElement xmi:type="uml:Package" xmi:id="_0uafQr6rEeGA6dxrUD4RJQ" name="proxy">
+      <packagedElement xmi:type="uml:Package" xmi:id="_0uafQ76rEeGA6dxrUD4RJQ" name="gumball">
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWY9L6rEeGA6dxrUD4RJQ" memberEnd="_0vT3JL6rEeGA6dxrUD4RJQ _0wWY9b6rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWY9b6rEeGA6dxrUD4RJQ" name="SoldOutState" type="_0uafRb6rEeGA6dxrUD4RJQ" association="_0wWY9L6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWY9r6rEeGA6dxrUD4RJQ" memberEnd="_0vdBEr6rEeGA6dxrUD4RJQ _0wWY976rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWY976rEeGA6dxrUD4RJQ" name="GumballMachine" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWY9r6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWY-L6rEeGA6dxrUD4RJQ" memberEnd="_0vdBE76rEeGA6dxrUD4RJQ _0wWY-b6rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWY-b6rEeGA6dxrUD4RJQ" name="GumballMachine" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWY-L6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWY-r6rEeGA6dxrUD4RJQ" memberEnd="_0vdBFL6rEeGA6dxrUD4RJQ _0wWY-76rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWY-76rEeGA6dxrUD4RJQ" name="GumballMachine" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWY-r6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWY_L6rEeGA6dxrUD4RJQ" memberEnd="_0vdBFb6rEeGA6dxrUD4RJQ _0wWY_b6rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWY_b6rEeGA6dxrUD4RJQ" name="GumballMachine" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWY_L6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWY_r6rEeGA6dxrUD4RJQ" memberEnd="_0vdBFr6rEeGA6dxrUD4RJQ _0wWY_76rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWY_76rEeGA6dxrUD4RJQ" name="GumballMachine" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWY_r6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWZAL6rEeGA6dxrUD4RJQ" memberEnd="_0vmyEL6rEeGA6dxrUD4RJQ _0wWZAb6rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWZAb6rEeGA6dxrUD4RJQ" name="GumballMachine" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWZAL6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWZAr6rEeGA6dxrUD4RJQ" memberEnd="_0wDeA76rEeGA6dxrUD4RJQ _0wWZA76rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWZA76rEeGA6dxrUD4RJQ" name="HasQuarterState" type="_0uafR76rEeGA6dxrUD4RJQ" association="_0wWZAr6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWZBL6rEeGA6dxrUD4RJQ" memberEnd="_0wDeDb6rEeGA6dxrUD4RJQ _0wWZBb6rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWZBb6rEeGA6dxrUD4RJQ" name="WinnerState" type="_0ukQQL6rEeGA6dxrUD4RJQ" association="_0wWZBL6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWZBr6rEeGA6dxrUD4RJQ" memberEnd="_0wMn_b6rEeGA6dxrUD4RJQ _0wWZB76rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWZB76rEeGA6dxrUD4RJQ" name="SoldState" type="_0utaMr6rEeGA6dxrUD4RJQ" association="_0wWZBr6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWZCL6rEeGA6dxrUD4RJQ" memberEnd="_0wMoBL6rEeGA6dxrUD4RJQ _0wWZCb6rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWZCb6rEeGA6dxrUD4RJQ" name="GumballMonitor" type="_0utaM76rEeGA6dxrUD4RJQ" association="_0wWZCL6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0wWZCr6rEeGA6dxrUD4RJQ" memberEnd="_0wMoB76rEeGA6dxrUD4RJQ _0wWZC76rEeGA6dxrUD4RJQ">
+          <ownedEnd xmi:id="_0wWZC76rEeGA6dxrUD4RJQ" name="NoQuarterState" type="_0utaNL6rEeGA6dxrUD4RJQ" association="_0wWZCr6rEeGA6dxrUD4RJQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0uafRL6rEeGA6dxrUD4RJQ" name="GumballMonitorTestDrive">
+          <ownedOperation xmi:id="_0vT3Ib6rEeGA6dxrUD4RJQ" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_0vT3Ir6rEeGA6dxrUD4RJQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0uafRb6rEeGA6dxrUD4RJQ" name="SoldOutState" clientDependency="_0vT3I76rEeGA6dxrUD4RJQ">
+          <ownedAttribute xmi:id="_0vT3JL6rEeGA6dxrUD4RJQ" name="gumballMachine" visibility="package" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWY9L6rEeGA6dxrUD4RJQ"/>
+          <interfaceRealization xmi:id="_0vT3I76rEeGA6dxrUD4RJQ" name="State" supplier="_0utaML6rEeGA6dxrUD4RJQ" client="_0uafRb6rEeGA6dxrUD4RJQ" contract="_0utaML6rEeGA6dxrUD4RJQ"/>
+          <ownedOperation xmi:id="_0vT3Jb6rEeGA6dxrUD4RJQ" name="insertQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0vT3Jr6rEeGA6dxrUD4RJQ" name="ejectQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0vT3J76rEeGA6dxrUD4RJQ" name="turnCrank" visibility="public"/>
+          <ownedOperation xmi:id="_0vT3KL6rEeGA6dxrUD4RJQ" name="dispense" visibility="public"/>
+          <ownedOperation xmi:id="_0vT3Kb6rEeGA6dxrUD4RJQ" name="toString" visibility="public">
+            <ownedParameter xmi:id="_0vT3Kr6rEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0uafRr6rEeGA6dxrUD4RJQ" name="GumballMachine" clientDependency="_0vT3K76rEeGA6dxrUD4RJQ">
+          <generalization xmi:id="_0vdBEb6rEeGA6dxrUD4RJQ" general="_0vdBEL6rEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_0vdBEr6rEeGA6dxrUD4RJQ" name="soldOutState" visibility="package" type="_0utaML6rEeGA6dxrUD4RJQ" association="_0wWY9r6rEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_0vdBE76rEeGA6dxrUD4RJQ" name="noQuarterState" visibility="package" type="_0utaML6rEeGA6dxrUD4RJQ" association="_0wWY-L6rEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_0vdBFL6rEeGA6dxrUD4RJQ" name="hasQuarterState" visibility="package" type="_0utaML6rEeGA6dxrUD4RJQ" association="_0wWY-r6rEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_0vdBFb6rEeGA6dxrUD4RJQ" name="soldState" visibility="package" type="_0utaML6rEeGA6dxrUD4RJQ" association="_0wWY_L6rEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_0vdBFr6rEeGA6dxrUD4RJQ" name="winnerState" visibility="package" type="_0utaML6rEeGA6dxrUD4RJQ" association="_0wWY_r6rEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_0vmyEL6rEeGA6dxrUD4RJQ" name="state" visibility="package" type="_0utaML6rEeGA6dxrUD4RJQ" association="_0wWZAL6rEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_0vmyEr6rEeGA6dxrUD4RJQ" name="count" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_0vmyE76rEeGA6dxrUD4RJQ"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_0vmyFL6rEeGA6dxrUD4RJQ" name="location" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_0vT3K76rEeGA6dxrUD4RJQ" name="GumballMachineRemote" supplier="_0utaMb6rEeGA6dxrUD4RJQ" client="_0uafRr6rEeGA6dxrUD4RJQ" contract="_0utaMb6rEeGA6dxrUD4RJQ"/>
+          <ownedOperation xmi:id="_0vmyFb6rEeGA6dxrUD4RJQ" name="insertQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0vmyFr6rEeGA6dxrUD4RJQ" name="ejectQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0vmyF76rEeGA6dxrUD4RJQ" name="turnCrank" visibility="public"/>
+          <ownedOperation xmi:id="_0vwjEL6rEeGA6dxrUD4RJQ" name="setState" visibility="package">
+            <ownedParameter xmi:id="_0vwjEb6rEeGA6dxrUD4RJQ" name="state" type="_0utaML6rEeGA6dxrUD4RJQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0vwjEr6rEeGA6dxrUD4RJQ" name="releaseBall" visibility="package"/>
+          <ownedOperation xmi:id="_0vwjE76rEeGA6dxrUD4RJQ" name="refill" visibility="public">
+            <ownedParameter xmi:id="_0vwjFL6rEeGA6dxrUD4RJQ" name="count">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0vwjFb6rEeGA6dxrUD4RJQ" name="getCount" visibility="public">
+            <ownedParameter xmi:id="_0vwjFr6rEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0v5tAL6rEeGA6dxrUD4RJQ" name="getState" visibility="public">
+            <ownedParameter xmi:id="_0v5tAb6rEeGA6dxrUD4RJQ" name="return" type="_0utaML6rEeGA6dxrUD4RJQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0v5tAr6rEeGA6dxrUD4RJQ" name="getLocation" visibility="public">
+            <ownedParameter xmi:id="_0v5tA76rEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0v5tBL6rEeGA6dxrUD4RJQ" name="getSoldOutState" visibility="public">
+            <ownedParameter xmi:id="_0v5tBb6rEeGA6dxrUD4RJQ" name="return" type="_0utaML6rEeGA6dxrUD4RJQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0v5tBr6rEeGA6dxrUD4RJQ" name="getNoQuarterState" visibility="public">
+            <ownedParameter xmi:id="_0v5tB76rEeGA6dxrUD4RJQ" name="return" type="_0utaML6rEeGA6dxrUD4RJQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0v5tCL6rEeGA6dxrUD4RJQ" name="getHasQuarterState" visibility="public">
+            <ownedParameter xmi:id="_0v5tCb6rEeGA6dxrUD4RJQ" name="return" type="_0utaML6rEeGA6dxrUD4RJQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0v5tCr6rEeGA6dxrUD4RJQ" name="getSoldState" visibility="public">
+            <ownedParameter xmi:id="_0v5tC76rEeGA6dxrUD4RJQ" name="return" type="_0utaML6rEeGA6dxrUD4RJQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0v5tDL6rEeGA6dxrUD4RJQ" name="getWinnerState" visibility="public">
+            <ownedParameter xmi:id="_0v5tDb6rEeGA6dxrUD4RJQ" name="return" type="_0utaML6rEeGA6dxrUD4RJQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0v5tDr6rEeGA6dxrUD4RJQ" name="toString" visibility="public">
+            <ownedParameter xmi:id="_0v5tD76rEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0uafR76rEeGA6dxrUD4RJQ" name="HasQuarterState" clientDependency="_0wDeAL6rEeGA6dxrUD4RJQ">
+          <ownedAttribute xmi:id="_0wDeAr6rEeGA6dxrUD4RJQ" name="randomWinner" visibility="package" type="_0wDeAb6rEeGA6dxrUD4RJQ"/>
+          <ownedAttribute xmi:id="_0wDeA76rEeGA6dxrUD4RJQ" name="gumballMachine" visibility="package" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWZAr6rEeGA6dxrUD4RJQ"/>
+          <interfaceRealization xmi:id="_0wDeAL6rEeGA6dxrUD4RJQ" name="State" supplier="_0utaML6rEeGA6dxrUD4RJQ" client="_0uafR76rEeGA6dxrUD4RJQ" contract="_0utaML6rEeGA6dxrUD4RJQ"/>
+          <ownedOperation xmi:id="_0wDeBL6rEeGA6dxrUD4RJQ" name="insertQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0wDeBb6rEeGA6dxrUD4RJQ" name="ejectQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0wDeBr6rEeGA6dxrUD4RJQ" name="turnCrank" visibility="public"/>
+          <ownedOperation xmi:id="_0wDeB76rEeGA6dxrUD4RJQ" name="dispense" visibility="public"/>
+          <ownedOperation xmi:id="_0wDeCL6rEeGA6dxrUD4RJQ" name="toString" visibility="public">
+            <ownedParameter xmi:id="_0wDeCb6rEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0uafSL6rEeGA6dxrUD4RJQ" name="GumballMachineTestDrive">
+          <ownedOperation xmi:id="_0wDeCr6rEeGA6dxrUD4RJQ" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_0wDeC76rEeGA6dxrUD4RJQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0ukQQL6rEeGA6dxrUD4RJQ" name="WinnerState" clientDependency="_0wDeDL6rEeGA6dxrUD4RJQ">
+          <ownedAttribute xmi:id="_0wDeDb6rEeGA6dxrUD4RJQ" name="gumballMachine" visibility="package" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWZBL6rEeGA6dxrUD4RJQ"/>
+          <interfaceRealization xmi:id="_0wDeDL6rEeGA6dxrUD4RJQ" name="State" supplier="_0utaML6rEeGA6dxrUD4RJQ" client="_0ukQQL6rEeGA6dxrUD4RJQ" contract="_0utaML6rEeGA6dxrUD4RJQ"/>
+          <ownedOperation xmi:id="_0wDeDr6rEeGA6dxrUD4RJQ" name="insertQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0wDeD76rEeGA6dxrUD4RJQ" name="ejectQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0wDeEL6rEeGA6dxrUD4RJQ" name="turnCrank" visibility="public"/>
+          <ownedOperation xmi:id="_0wDeEb6rEeGA6dxrUD4RJQ" name="dispense" visibility="public"/>
+          <ownedOperation xmi:id="_0wMn8L6rEeGA6dxrUD4RJQ" name="toString" visibility="public">
+            <ownedParameter xmi:id="_0wMn8b6rEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_0utaML6rEeGA6dxrUD4RJQ" name="State">
+          <ownedOperation xmi:id="_0wMn8r6rEeGA6dxrUD4RJQ" name="insertQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0wMn876rEeGA6dxrUD4RJQ" name="ejectQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0wMn9L6rEeGA6dxrUD4RJQ" name="turnCrank" visibility="public"/>
+          <ownedOperation xmi:id="_0wMn9b6rEeGA6dxrUD4RJQ" name="dispense" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_0utaMb6rEeGA6dxrUD4RJQ" name="GumballMachineRemote">
+          <ownedOperation xmi:id="_0wMn9r6rEeGA6dxrUD4RJQ" name="getCount" visibility="public">
+            <ownedParameter xmi:id="_0wMn976rEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0wMn-L6rEeGA6dxrUD4RJQ" name="getLocation" visibility="public">
+            <ownedParameter xmi:id="_0wMn-b6rEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_0wMn-r6rEeGA6dxrUD4RJQ" name="getState" visibility="public">
+            <ownedParameter xmi:id="_0wMn-76rEeGA6dxrUD4RJQ" name="return" type="_0utaML6rEeGA6dxrUD4RJQ" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0utaMr6rEeGA6dxrUD4RJQ" name="SoldState" clientDependency="_0wMn_L6rEeGA6dxrUD4RJQ">
+          <ownedAttribute xmi:id="_0wMn_b6rEeGA6dxrUD4RJQ" name="gumballMachine" visibility="package" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWZBr6rEeGA6dxrUD4RJQ"/>
+          <interfaceRealization xmi:id="_0wMn_L6rEeGA6dxrUD4RJQ" name="State" supplier="_0utaML6rEeGA6dxrUD4RJQ" client="_0utaMr6rEeGA6dxrUD4RJQ" contract="_0utaML6rEeGA6dxrUD4RJQ"/>
+          <ownedOperation xmi:id="_0wMn_r6rEeGA6dxrUD4RJQ" name="insertQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0wMn_76rEeGA6dxrUD4RJQ" name="ejectQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0wMoAL6rEeGA6dxrUD4RJQ" name="turnCrank" visibility="public"/>
+          <ownedOperation xmi:id="_0wMoAb6rEeGA6dxrUD4RJQ" name="dispense" visibility="public"/>
+          <ownedOperation xmi:id="_0wMoAr6rEeGA6dxrUD4RJQ" name="toString" visibility="public">
+            <ownedParameter xmi:id="_0wMoA76rEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0utaM76rEeGA6dxrUD4RJQ" name="GumballMonitor">
+          <ownedAttribute xmi:id="_0wMoBL6rEeGA6dxrUD4RJQ" name="machine" visibility="package" type="_0utaMb6rEeGA6dxrUD4RJQ" association="_0wWZCL6rEeGA6dxrUD4RJQ"/>
+          <ownedOperation xmi:id="_0wMoBb6rEeGA6dxrUD4RJQ" name="report" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0utaNL6rEeGA6dxrUD4RJQ" name="NoQuarterState" clientDependency="_0wMoBr6rEeGA6dxrUD4RJQ">
+          <ownedAttribute xmi:id="_0wMoB76rEeGA6dxrUD4RJQ" name="gumballMachine" visibility="package" type="_0uafRr6rEeGA6dxrUD4RJQ" association="_0wWZCr6rEeGA6dxrUD4RJQ"/>
+          <interfaceRealization xmi:id="_0wMoBr6rEeGA6dxrUD4RJQ" name="State" supplier="_0utaML6rEeGA6dxrUD4RJQ" client="_0utaNL6rEeGA6dxrUD4RJQ" contract="_0utaML6rEeGA6dxrUD4RJQ"/>
+          <ownedOperation xmi:id="_0wMoCL6rEeGA6dxrUD4RJQ" name="insertQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0wMoCb6rEeGA6dxrUD4RJQ" name="ejectQuarter" visibility="public"/>
+          <ownedOperation xmi:id="_0wWY8L6rEeGA6dxrUD4RJQ" name="turnCrank" visibility="public"/>
+          <ownedOperation xmi:id="_0wWY8b6rEeGA6dxrUD4RJQ" name="dispense" visibility="public"/>
+          <ownedOperation xmi:id="_0wWY8r6rEeGA6dxrUD4RJQ" name="toString" visibility="public">
+            <ownedParameter xmi:id="_0wWY876rEeGA6dxrUD4RJQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_0vdBEL6rEeGA6dxrUD4RJQ" name="UnicastRemoteObject"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_0wDeAb6rEeGA6dxrUD4RJQ" name="Random"/>
+</uml:Model>
